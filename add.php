@@ -2,12 +2,6 @@
 <form action="save.php" method="post">
     <table width="25%" border="0">
         <tr>
-            <td>ID Siswa</td>
-            <td>:</td>
-            <td><input type="text" name="id"></td>
-        </tr>
-
-        <tr>
             <td>Nama Siswa</td>
             <td>:</td>
             <td><input type="text" name="nama"></td>
@@ -16,9 +10,9 @@
         <tr>
             <td>Jenis Kelamin</td>
             <td>:</td>
-            <td><input type="radio" name="jenis_kelamin">
+            <td><input type="radio" value="Laki-laki" name="jenis_kelamin">
                 <label>Laki-laki</label>
-                <input type="radio" name="jenis_kelamin">
+                <input type="radio" value="Perempuan" name="jenis_kelamin">
                 <label>Perempuan</label>
             </td>
         </tr>
